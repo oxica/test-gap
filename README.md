@@ -1,21 +1,4 @@
 # test-gap
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        html,
-        body {
-            height: 100%;
-            /* высота элементов в процентах */
-            margin: 0;
-            /* убираем внешние отступы со всех сторон */
-            overflow: auto;
-            /* полоса прокрутки будет добавлена автоматически при переполнении элемента */
-        }
 
         .grid-container,
         .grid-container2 {
@@ -52,25 +35,5 @@
             grid-gap: 10% 20px;
             /* задаем промежуток между строками и столбцами в макете сетки */
         }
-    </style>
-</head>
 
-<body>
-    <div class="grid-container">
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>E</div>
-        <div>F</div>
-    </div>
-    <div class="grid-container2">
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>E</div>
-        <div>F</div>
-    </div>
-</body>
-</html>
+
